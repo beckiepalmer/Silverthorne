@@ -1,0 +1,120 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+
+/* ==========================================================================
+   Beckie's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: "chunkfiveroman";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.silverthorneattorneys.com/fonts/chunkfive-webfont.eot?#iefix") format("embedded-opentype"), url("https://www.silverthorneattorneys.com/fonts/chunkfive-webfont.woff") format("woff"), url("https://www.silverthorneattorneys.com/fonts/chunkfive-webfont.ttf") format("truetype"), url("https://www.silverthorneattorneys.com/fonts/chunkfive-webfont.svg#chunkfiveroman") format("svg");
+}
+
+.navbar-default {
+	background:#00457c;
+	background-image:none;
+	border-radius: 0px;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    background-color: #366c98;
+    color: #FFF;
+	margin-right:2px;
+}
+.navbar-brand, .navbar-nav > li > a {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    background-image:none;
+    box-shadow:none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #366c98;
+    color: #FFF;
+}
+.navbar-default .navbar-toggle {
+    border-color: #003762;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color:  #003762;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border:none;
+	box-shadow:none;
+	min-height:20px;
+}
+.navbar-nav > li > a {
+line-height:10px;	
+	}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #FFF;
+}
+
+.logo {
+			width:250px;
+		}
+.call-now {
+	font-family: 'Roboto', serif;
+	font-size:1.5em;
+	letter-spacing:-1.2px;
+	color:#777;
+	line-height:.5em;
+	}
+.contact-number {
+	font-family: 'Roboto Slab', serif;
+	font-size:2em;
+	line-height:.5em;
+	font-weight:bold;
+	color:#004579;
+	}
+.main-content h1 {
+	background:#e7e7e7;
+	padding:10px;
+	margin:0px 0px 20px -10px;
+	font-size:1.2em;
+	color: #00457c;
+	font-weight:bold;
+	}
+.main-content h2 {
+	font-size:1.1em;
+	color: #00457c;
+	font-weight:bold;
+	}
+	
+	    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .logo {
+			margin-bottom:20px;
+		}
+		.call-now {
+			margin-bottom:20px;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+		
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+	.logo {
+		}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
